@@ -8,21 +8,6 @@ public class Fizzbuzz {
 		{
 			return "FizzBuzz";                    
 		}
-		else 
-			if(i % 3 == 0)
-			{
-				return"Fizz";
-			}
-			else 
-				if(i % 5 == 0)
-				{
-					return "Buzz";
-				}
-				else
-					return(Integer.toString(i));
-		
-		
-        
 	    if(esMultiplode(i,3))
 		{
 			return"Fizz";
