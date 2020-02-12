@@ -4,15 +4,15 @@ public class Fizzbuzz {
 	
 	public static String result(int i)
 	{
-		if (esMultiplode(i,3) && esMultiplode(i,5))
+		if (esMultiploDe(i,3) && esMultiploDe(i,5))
 		{
 			return "FizzBuzz";                    
 		}
-	    if(esMultiplode(i,3))
+	    if(esMultiploDe(i,3))
 		{
 			return"Fizz";
 		}
-		if(esMultiplode(i,5))
+		if(esMultiploDe(i,5))
 		{
 			return "Buzz";
 		}
@@ -20,7 +20,7 @@ public class Fizzbuzz {
     }	
 	
 	
-	public static boolean esMultiplode(int entrada,int multiplo)
+	public static boolean esMultiploDe(int entrada,int multiplo)
 	{
 		return entrada % multiplo ==0;
 	}
