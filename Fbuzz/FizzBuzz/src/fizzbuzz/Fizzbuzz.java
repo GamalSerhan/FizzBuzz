@@ -33,4 +33,10 @@ public class Fizzbuzz {
 		}
 		 return(Integer.toString(i));
     }	
+	
+	
+	public static boolean esMultiplode(int entrada,int multiplo)
+	{
+		return entrada % multiplo ==0;
+	}
 }
