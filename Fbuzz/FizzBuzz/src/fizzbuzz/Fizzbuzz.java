@@ -5,6 +5,7 @@ public class Fizzbuzz {
 	public static String result(int i)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
+		if (esMultiplode(i,3) && esMultiplode(i,5))
 		{
 			return "FizzBuzz";                    
 		}
