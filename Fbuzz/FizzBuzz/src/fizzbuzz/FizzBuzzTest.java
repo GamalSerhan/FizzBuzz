@@ -35,3 +35,4 @@ public class FizzBuzzTest {
 		assertEquals(expect,salida);
 	}
 
+}
